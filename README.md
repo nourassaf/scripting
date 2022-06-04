@@ -20,5 +20,6 @@ AvgIntronLeng
 %T In Intron
 
 Part 3 is user friendly,can take in any sequence provided and prints out the statistics of any file provided,checks for errors from user and double checks the accuracy of the aminoacids entered.
-the mRNA for the sequence provided and the peptide protein sequence that corresponds to it. The mRNA is the combination of all the exons for that sequence.
+The program also calculated different probabilities of mRNA sequences according to the the DNA sequence provided and the peptide protein sequence that corresponds to it. The mRNA is the combination of all the exons for that sequence.
 the RANGE and AVERAGE of melting temperature of the primers for that sequence. the melting temperature wa computed using the following formula Tm = ( A + T ) ´ 2°C + ( C + G ) ´ 4°C  then the Range, minmax, and the average are printed
+
