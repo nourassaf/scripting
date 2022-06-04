@@ -1,10 +1,10 @@
 # scripting
 project objectives and parts:
 Data is a fasta file that contains multiple DNA sequences. These sequences are made up of upper and lower cases. The upper cases indicate exons, the lower cases indicate introns. As you might know, only the exons are translated and transcribed to proteins based on the codon mapping. Each 3 nucleotides map for one amino acid. Each sequence has its own ID and header starting with “>”.
-These were printed out, computed, organized and categorized as exons and introns. The prportion ofeach aminoacid was also calculated
+These were printed out, computed, organized and categorized as exons and introns. The proportion of each aminoacid was also calculated
 
 
-In part 2. sequences had 2 exons and one intron. The lower case before the first exon and after that last exon are not considered as introns but rather upper stream and lower stream sequences. The script should printed out a table (tab delimited) with proper spacing indicating the following :
+In part 2. sequences had 2 exons and one intron. The lower case before the first exon and after that last exon are not considered as introns but rather upper stream and lower stream sequences. The script prints out a table (tab delimited) with proper spacing indicating the following :
 headlines of table: SequenceID
 #Exons
 #Introns
